@@ -111,7 +111,8 @@ names(filtered)[2]<-"activity"
 #ok, so filtered holds a dataset that has names, and means and stds only. And now we need to change the
 #coding in filtered$activity to be in string format to fulfil #3
 
-#hardcoding this in a boring ugly way because why not.
+#hardcoding this in a boring ugly way because why not, there aren't enough values to worry about
+#something more elegant, don't you think?
 
 
 for (i in 1:length(filtered$activity)){
